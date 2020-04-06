@@ -1,0 +1,4 @@
+Step to run:
+S0: Convert to .bin file from .hex file using command: xxd -r -p input.hex output.bin
+S1: Plug-in usb to device. Run command: mount /dev/sda /media/ and copy file to device.
+S2: Run file by command: python-Flash_firmware.py [i2c_bus] [addr][namefile.bin]
